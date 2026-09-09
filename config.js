@@ -6,10 +6,23 @@
 window.SITE_CONFIG = {
   name: "Your Name",
   bio: "Student, creator, and computer enthusiast.",
-  avatar: "", // Example: "assets/profile.jpg"
+
+  // Local or remote image/GIF URL.
+  // Examples: "assets/profile.gif" or "https://example.com/profile.gif"
+  avatar: "",
+
   footer: "YetAnotherLinktree",
 
-  // Material You color seed. Change the main color below.
+  /*
+    Built-in themes:
+      "light"           - Material You light
+      "dark"            - Material You dark
+      "solarized-dark"  - Solarized Dark colors with Material You surfaces
+      "system"          - follows the visitor's OS preference
+  */
+  theme: "light",
+
+  // Main Material You accent color.
   primary: "#6750A4",
 
   links: [
@@ -17,7 +30,8 @@ window.SITE_CONFIG = {
       title: "GitHub",
       description: "My projects and code",
       url: "https://github.com/",
-      icon: "GH" //It will be showed as "GH", you can use something like "assets/githublogo.png" to show your logo based on your directory.
+      // Text icon, or local/remote PNG/JPG/GIF/SVG/WebP URL.
+      icon: "GH"
     },
     {
       title: "Instagram",
