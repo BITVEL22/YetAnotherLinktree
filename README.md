@@ -1,6 +1,6 @@
 # YetAnotherLinktree
 
-A simple personal link page inspired by Material You. It is static, so it can be hosted on Vercel without a backend or build command.
+A simple personal link page and currently used on [my own linktree page](vel.rushbite.net), inspired by Material You. It is static, so it can be hosted on Vercel without a backend or build command.
 
 ## Customize
 
