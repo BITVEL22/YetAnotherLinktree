@@ -11,7 +11,7 @@ window.SITE_CONFIG = {
   // Examples: "assets/profile.gif" or "https://example.com/profile.gif"
   avatar: "",
 
-  footer: "YetAnotherLinktree",
+  footer: "YetAnotherLinktree by BITVEL22",
 
   /*
     Built-in themes:
@@ -50,6 +50,12 @@ window.SITE_CONFIG = {
       description: "Another place to find me",
       url: "https://example.com/",
       icon: "LT"
-    }
+    },
+    {
+      title: "YetAnotherLinktree",
+      description: "Videos and projects",
+      url: "https://youtube.com/",
+      icon: "YT"
+    },
   ]
 };
