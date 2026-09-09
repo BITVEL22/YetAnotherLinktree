@@ -54,7 +54,7 @@ window.SITE_CONFIG = {
     {
       title: "YetAnotherLinktree",
       description: "Videos and projects",
-      url: "https://youtube.com/",
+      url: "https://github.com/BITVEL22/YetAnotherLinktree",
       icon: "YT"
     },
   ]
