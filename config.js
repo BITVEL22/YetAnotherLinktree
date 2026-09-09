@@ -3,7 +3,7 @@
   No build step is required. Edit this file, commit, and redeploy.
 */
 
-const SITE_CONFIG = {
+window.SITE_CONFIG = {
   name: "Your Name",
   bio: "Student, creator, and computer enthusiast.",
   avatar: "", // Example: "assets/profile.jpg"
@@ -17,7 +17,7 @@ const SITE_CONFIG = {
       title: "GitHub",
       description: "My projects and code",
       url: "https://github.com/",
-      icon: "GH"
+      icon: "GH" //It will be showed as "GH", you can use something like "assets/githublogo.png" to show your logo based on your directory.
     },
     {
       title: "Instagram",
@@ -32,9 +32,9 @@ const SITE_CONFIG = {
       icon: "YT"
     },
     {
-      title: "Linktree",
+      title: "My Own Website",
       description: "Another place to find me",
-      url: "https://linktr.ee/",
+      url: "https://example.com/",
       icon: "LT"
     }
   ]
