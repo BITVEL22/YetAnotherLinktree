@@ -1,6 +1,6 @@
 # YetAnotherLinktree
 
-A simple personal link page inspired by Material You. It is a static website, so it can be hosted on Vercel without a backend or build command.
+A simple personal link page that's fully open and free to use inspired by Material You. It is a static website, so it can be hosted on Vercel without a backend or build command.
 
 ## Customize
 
@@ -121,7 +121,7 @@ Then reference them from `config.js`.
 
 No build step is required.
 
-1. Push the repository to GitHub.
+1. Download the template & edit config.js.
 2. Import it into Vercel.
 3. Use **Other** as the framework preset if asked.
 4. Leave the build command and output directory empty.
