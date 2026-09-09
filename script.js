@@ -41,9 +41,12 @@
     const icon = document.createElement("span");
     icon.className = "link-icon";
 
-    if (item.iconImage) {
+    const iconValue = item.iconImage || item.icon;
+    const looksLikeImagePath = typeof iconValue === "string" && /\.(png|jpe?g|gif|svg|webp|avif|ico)(\?.*)?$/i.test(iconValue);
+
+    if (item.iconImage || looksLikeImagePath) {
       const img = document.createElement("img");
-      img.src = item.iconImage;
+      img.src = item.iconImage || item.icon;
       img.alt = "";
       icon.appendChild(img);
     } else {
